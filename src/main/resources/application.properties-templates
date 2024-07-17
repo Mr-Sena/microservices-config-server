@@ -1,0 +1,11 @@
+
+#Rename the file to only .properties (no -template).
+
+server.port=8888
+
+spring.application.name=<project-name>
+spring.cloud.config.server.git.uri=<RepositoryUrl>
+spring.cloud.config.server.git.username=
+spring.cloud.config.server.git.password=
+spring.cloud.config.server.git.default-label=main
+spring.cloud.config.server.git.refreshRate=3
